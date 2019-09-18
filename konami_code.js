@@ -1,4 +1,5 @@
 const code = [38, 38, 40, 40, 37, 39, 37, 39, 66, 65]
+let state = 0;
 
 function codeChecker(e){
   if(convert(code[state]) === e.key){
